@@ -75,7 +75,7 @@ return(
 
     
             
-            <button type="submit">Crear Empleado</button>
+            <button type="submit">Crear Articulo</button>
         </form>
     </div>
 )
