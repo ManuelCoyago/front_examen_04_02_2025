@@ -28,7 +28,7 @@ return(
         <h2>Create</h2>
         <form onSubmit={handleSubmit}>
             <div>
-                <label>Codigo de empleado: </label>
+                <label>cedula: </label>
                 <input
                 type ="text"
                 id = "idCode"
