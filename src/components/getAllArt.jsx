@@ -15,12 +15,11 @@ const ObtenerDatos = () =>{
     },[]);
     return(
         <div>
-            <h1>Informacion obtenida</h1>
+            <h1>data</h1>
             <ul>
                 {datos.map((dato)=>(
                     <li key={dato._id}> 
                         <h2>{dato.fullName} </h2>
-                        <p>Su sueldo es: {dato.pay}</p>
                     </li>
                 ))}
             </ul>
